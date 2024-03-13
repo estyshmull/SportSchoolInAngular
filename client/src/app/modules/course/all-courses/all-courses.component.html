@@ -1,0 +1,25 @@
+<p>all-courses works!</p>
+<app-nav-bar></app-nav-bar>
+  <div class="component-container">
+    <div *ngFor="let c of courses">
+        <div>{{c.courseName}}</div>
+        <button (click)="showDetails(c)">to show Details</button>
+    </div>
+  </div>
+  <!-- Filter Controls -->
+<div class="col-md-3 mb-3">
+  <input type="text" class="form-control" placeholder="Search by name" [(ngModel)]="searchName">
+</div>
+<div class="col-md-3 mb-3">
+  <select class="form-select" [(ngModel)]="selectedCategory" (change)="filterByCategory()">
+    <option value="">Select category</option>
+    <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+  </select>
+</div>
+<div class="col-md-3 mb-3">
+  <select class="form-select" [(ngModel)]="selectedLearningMethod" (change)="filterByLearningMethod()">
+    <option value="">Select learning method</option>
+    <option value="online">Online</option>
+    <option value="offline">Offline</option>
+  </select>
+</div>

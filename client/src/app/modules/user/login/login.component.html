@@ -1,0 +1,21 @@
+<form class="row g-3" [formGroup]="userForm" (ngSubmit)="login()">
+  <div class="col-md-4">
+    <label for="username" class="form-label">Username</label>
+    <input type="text" class="form-control is-valid" id="username" value="Mark" name="username"
+      formControlName="userName" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <label for="password" class="form-label">Password:</label>
+    <input type="password" class="form-control is-valid" id="password" value="Mark" name="password"
+      placeholder="password" id="password" formControlName="password" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" (click)="login()">Login</button>
+  <a routerLink="/lecturers">Login Lecturers</a>
+</form>

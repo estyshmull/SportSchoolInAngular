@@ -1,0 +1,29 @@
+<form [formGroup]="courseForm" (ngSubmit)="addCourse()">
+    <input type="text" placeholder="courseName" id="courseName" formControlName="courseName">
+
+    <select placeholder="formLearning" id="formLearning" formControlName="formLearning">
+        <option value="zoom">zoom</option>
+        <option value="frontal">frontal</option>
+    </select>
+
+    <input type="number" placeholder="numOfLessons" id="numOfLessons" formControlName="numOfLessons">
+
+    <input type="text" placeholder="input" id="inputSyllabus" formControlName="inputSyllabus"
+        (input)="onInputChange($event,0)" #inputField>
+
+    <div *ngFor="let input of inputs; let i = index">
+        <input type="text" placeholder="input" id="inputSyllabus" formControlName="inputSyllabus"
+            (input)="onInputChange($event, i)" #inputField>
+    </div>
+
+    <input type="date" placeholder="startDate" id="startDate" formControlName="startDate">
+    <input type="text" placeholder="lecturerName" id="lecturerName" formControlName="lecturerName">
+    <input type="text" placeholder="picture" id="picture" formControlName="picture">
+
+    <select name="category" placeholder="categoryId" id="categoryId" formControlName="categoryId">
+        <option *ngFor="let option of options" [value]="option.description">{{ option.name }}</option>
+    </select>
+    <button type="submit">
+        to add course
+    </button>
+</form>
