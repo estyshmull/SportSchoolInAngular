@@ -13,7 +13,7 @@
         public DateTime StartDate { get; set; }
         public List<string> Syllabus { get; set; }
         public EformLearning FormLearninig { get; set; }
-        public int LecturerId { get; }
+        public int LecturerId { get; set; }
         public string Picture { get; set; }
         
         static int id = 1;

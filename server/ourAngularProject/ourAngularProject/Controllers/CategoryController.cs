@@ -11,9 +11,9 @@ namespace ourAngularProject.Controllers
     {
         public static List<Category> categories = new List<Category>()
         {
-            new Category(){CategoryName="dry sport"},
-            new Category(){CategoryName="water sport"},
-            new Category(){CategoryName="Therapeutic sports"}
+            new Category(){CategoryName="dry sport",Icon="https://www.alehrehovot.org.il/upload/s1_1670158390.png"},
+            new Category(){CategoryName="water sport",Icon="https://eilat-water-sport.co.il/wp-content/uploads/2023/02/noun-dolphin-icon-4395083-0A73B9.svg"},
+            new Category(){CategoryName="Therapeutic sports",Icon="https://image.modiinapp.com/524bbbfb5c6c4_300_300_crop.jpg"}
         };
 
         // GET: api/<CategoryController>
@@ -28,6 +28,17 @@ namespace ourAngularProject.Controllers
         public Category Get(int id)
         {
             return categories.Find(x => x.CategoryId == id);
+        }
+
+        [HttpGet("ByName/{name}")]
+        public ActionResult<Category> GetByName(string name)
+        {
+            var category = categories.Find(x => x.CategoryName == name);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return category;
         }
 
         // POST api/<CategoryController>

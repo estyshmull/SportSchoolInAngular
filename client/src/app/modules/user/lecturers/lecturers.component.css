@@ -1,0 +1,9 @@
+.btn-primary {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+
+.btn-primary:hover {
+    background-color: #5bc0de; /* יכול להיות אותו צבע כמו בכפתור ללא מעבר עכבר */
+    border-color: #5bc0de; /* יכול להיות אותו צבע כמו בכפתור ללא מעבר עכבר */
+}

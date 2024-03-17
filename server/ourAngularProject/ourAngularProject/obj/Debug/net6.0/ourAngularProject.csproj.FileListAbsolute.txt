@@ -94,3 +94,35 @@ C:\Users\user1\Documents\לימודים\תשפד\angular\-----coursesProject----
 C:\Users\user1\Documents\לימודים\תשפד\angular\-----coursesProject---------\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.pdb
 C:\Users\user1\Documents\לימודים\תשפד\angular\-----coursesProject---------\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.genruntimeconfig.cache
 C:\Users\user1\Documents\לימודים\תשפד\angular\-----coursesProject---------\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ref\ourAngularProject.dll
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.AssemblyInfo.cs
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.dll
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\refint\ourAngularProject.dll
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.pdb
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\appsettings.json
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\ourAngularProject.exe
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\ourAngularProject.deps.json
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\ourAngularProject.runtimeconfig.json
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\ourAngularProject.dll
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\ourAngularProject.pdb
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\staticwebassets\msbuild.ourAngularProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\staticwebassets\msbuild.build.ourAngularProject.props
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ourAngularProject.props
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ourAngularProject.props
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\scopedcss\bundle\ourAngularProject.styles.css
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.csproj.CopyComplete
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ourAngularProject.genruntimeconfig.cache
+C:\Users\user1\Documents\לימודים\פרויקט באנגולר\אחרי סינכרון בוקר\ourAngularProject\ourAngularProject\obj\Debug\net6.0\ref\ourAngularProject.dll

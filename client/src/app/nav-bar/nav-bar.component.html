@@ -1,12 +1,61 @@
-<div class="text-end">
+<!-- <div class="text-end">
     <button type="button" class="btn btn-info" routerLink="/allCourses">all courses</button>
     <button type="button" class="btn btn-info" routerLink="/signUp">add course</button>
     <button type="button" class="btn btn-info" routerLink="/home">logout</button>
-  </div>
-  <!-- <div class="text-end">
-    <button type="button" class="btn btn-outline-info me-2" routerLink="/login" *ngIf="!myIsLogin">Login</button>
-    <button type="button" class="btn btn-info" routerLink="/signUp" *ngIf="!myIsLogin">Sign Up</button>
-    <button type="button" class="btn btn-info" routerLink="/allCourses" *ngIf="myIsLogin">All Courses</button>
-    <button type="button" class="btn btn-info" routerLink="/addCourse" *ngIf="myIsLogin">Add Course</button>
-    <button type="button" class="btn btn-info" routerLink="/home" *ngIf="myIsLogin">Logout</button>
-</div> -->
+  </div> -->
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sport School</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+   -->
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://hachaluz.org.il/wp-content/uploads/2021/11/%D7%90%D7%99%D7%99%D7%A7%D7%95%D7%A0%D7%99%D7%9D-08.webp" alt="Sport School" height="40">
+        Sport School
+      </a>
+      <button class="navbar-toggler" type="button" (click)="toggleMenu()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" [ngClass]="{'show': isExpanded}">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  

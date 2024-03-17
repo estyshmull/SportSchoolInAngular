@@ -6,11 +6,16 @@ import { User } from './user.model';
   providedIn: 'root'
 })
 export class LecturerService {
-  public isLucturer=false;
+  public isLecturer=false;
+  public lecturerId=-1
   constructor(private http:HttpClient) {   }
 
   public getLecturerByNameAndPassword(lecturer:User)
   {
     return this.http.post<User>('https://localhost:7150/api/Lecturer/loginLecturer',lecturer)
+  }
+  public getLecturerById(id:number)
+  {
+    return this.http.get<User>(`https://localhost:7150/api/Lecturer/${id}`)
   }
 }

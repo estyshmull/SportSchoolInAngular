@@ -1,0 +1,14 @@
+button[type="submit"] {
+    background-color: #5bc0de; /* צבע ירוק בהיר */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #90daff; /* צבע ירוק בהיר עם גוון אפור */
+}

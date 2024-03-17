@@ -13,18 +13,9 @@ import { UserService } from '../modules/user/user.service';
   styleUrl: './nav-bar.component.css'
 })
 export class NavBarComponent {
-  // public myIsLogin!:boolean;
-  // private isLoginSubscription!: Subscription;
+  isExpanded = false;
 
-  // constructor(private _userService: UserService) { }
-
-  // ngOnInit() {
-  //   this.isLoginSubscription = this._userService.isLogin$.subscribe(isLogin => {
-  //     this.myIsLogin = isLogin;
-  //   });
-  // }
-
-  // ngOnDestroy() {
-  //   this.isLoginSubscription.unsubscribe();
-  // }
+  toggleMenu() {
+    this.isExpanded = !this.isExpanded;
+  }
 }

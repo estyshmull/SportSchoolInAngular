@@ -22,6 +22,7 @@ export class LecturersComponent {
 
   ngOnInit():void{}
   u:User=new User;
+  tempU!:User
 
   loginLecturer():void{
     this.u.name=this.useFormLecturer.value.userName?.toString(),
@@ -30,8 +31,14 @@ export class LecturersComponent {
     this.u.email="",
     this._lectuerService.getLecturerByNameAndPassword(this.u).subscribe({
       next:(res)=>{
-        console.log("the lectuerer exsist")
-         this._lectuerService.isLucturer=true; 
+        alert("welcome lecturer")
+        console.log("res.id: ",res)
+         this._lectuerService.isLecturer=true; 
+         this.tempU=res
+         console.log("this.tempU: ",this.tempU.id)
+         this._lectuerService.lecturerId=this.tempU.id
+         console.log("this._lectuerService.lecturerIdaaaaa: ",this._lectuerService.lecturerId)
+         this.router.navigate(['/allCourses'])
       },
       error:(err)=>{
         console.log(err.status)

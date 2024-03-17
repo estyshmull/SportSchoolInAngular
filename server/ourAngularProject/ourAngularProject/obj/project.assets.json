@@ -230,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\Documents\\לימודים\\פרויקט באנגולר\\ourAngularProject\\ourAngularProject\\ourAngularProject.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Documents\\לימודים\\פרויקט באנגולר\\אחרי סינכרון בוקר\\ourAngularProject\\ourAngularProject\\ourAngularProject.csproj",
       "projectName": "ourAngularProject",
-      "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\פרויקט באנגולר\\ourAngularProject\\ourAngularProject\\ourAngularProject.csproj",
+      "projectPath": "C:\\Users\\user1\\Documents\\לימודים\\פרויקט באנגולר\\אחרי סינכרון בוקר\\ourAngularProject\\ourAngularProject\\ourAngularProject.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\Documents\\לימודים\\פרויקט באנגולר\\ourAngularProject\\ourAngularProject\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Documents\\לימודים\\פרויקט באנגולר\\אחרי סינכרון בוקר\\ourAngularProject\\ourAngularProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

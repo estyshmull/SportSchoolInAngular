@@ -1,9 +1,10 @@
-/* body{
-    --bs-body-color-rgb: 222, 226, 230;
-}  */
+body {
+    margin: 0;
+    padding: 0;
+  }
 #img_home{
     width: 1200px;
-    height: 500px;
+    height: 600px;
 }
 #min_img_home{
     width: 400px;

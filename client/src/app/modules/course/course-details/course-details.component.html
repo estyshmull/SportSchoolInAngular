@@ -1,3 +1,67 @@
-<div>{{course?.courseName}}</div>
-<div>{{course?.numOfLessons}}</div>
+<!-- <div>{{course?.courseName}}
+    <img src={{course.picture}}>
+</div>
+
+<div>
+    {{this.category.categoryName}}
+    <img src={{this.category.icon}}>
+
+</div>
+
+<div>
+    <p appDateHighLighit=" course.startDate ">{{course.startDate}}</p>
+</div>
+<div>course.syllabus {{course.syllabus}}</div>
+
+<div *ngFor="let c1 of s">
+    <div> sssss{{c1}}</div>
+</div>
+
+<div>{{course?.numOfLesson}}</div>
 <div>{{course?.formLearning}}</div>
+
+<button [disabled]="isDisabled" (click)="editCourse()">to edit course</button> -->
+
+
+<div class="course-details">
+    <div class="course-info">
+        <img class="course-image" [src]="course.picture" alt="Course Image">
+        <h2>{{course?.courseName}}</h2>
+    </div>
+    
+    <div class="category-info">
+        <img class="category-icon" [src]="category.icon" alt="Category Icon">
+        <h3>{{category?.categoryName}}</h3>
+    </div>
+<!-- 
+    <div class="start-date">
+        <p appDateHighlight [date]="course.startDate">Start Date: {{course.startDate}}</p>
+    </div> -->
+
+    <div class="syllabus">
+        <h4>Syllabus:</h4>
+        <ul>
+            <li *ngFor="let topic of course.syllabus">{{ topic }}</li>
+        </ul>
+    </div>
+
+    <div class="additional-info">
+        <h4>Additional Information:</h4>
+        <div>Number of Lessons: {{course?.numOfLesson}}</div>
+        <div>Form of Learning: {{course?.formLearning}}</div>
+    </div>
+
+    <button class="edit-btn" [disabled]="isDisabled" (click)="editCourse()">Edit Course</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

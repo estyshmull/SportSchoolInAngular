@@ -39,7 +39,7 @@ export class RegisterComponent implements OnInit {
 
   u: User = new User()
 
-  chackAndAddUser(): void {
+  checkAndAddUser(): void {
     this.u.name = this.userForm.value.userName?.toString()
     this.u.address = this.userForm.value.address?.toString()
     this.u.email = this.userForm.value.email?.toString()
@@ -55,7 +55,7 @@ export class RegisterComponent implements OnInit {
         console.log("the ststus ", err.status)
         this._userService.save(this.u).subscribe({
           next: (res) => {
-            this.router.navigate(['/home'])
+            this.router.navigate(['/allcourses'])
           },
           error: (err) => {
             console.log("err: the save is not success");

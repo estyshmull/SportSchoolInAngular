@@ -4,10 +4,10 @@ export class Course {
   courseId!: number
   courseName?: string
   categoryId?: number
-  numOfLessons?: number
+  numOfLesson?: number
   startDate?: string
   syllabus?: string[]
-  formLearning?: Pipe
+  formLearning?:Pipe
   lecturerId?: number
   picture?: string
 }
